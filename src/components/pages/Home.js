@@ -17,7 +17,6 @@ function Home() {
                 <div className="demotion_">
                     <h3>ডিমেনশিয়া সংক্রান্ত মৌলিক তথ্য</h3>
                 </div>
-
                 <div className="row">
                     <div className=" col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
@@ -114,19 +113,19 @@ function Home() {
                         </Link>
 
                     </div>
-                </div> 
+                </div>
             </section>
-            <div className="marquee_div bg-gray-800 mt-4"> 
-                <marquee 
-                direction="left" scrollamount="4" 
+            <div className="marquee_div bg-gray-800 mt-4">
+                <marquee
+                    direction="left" scrollamount="4"
                 // behavior="scroll" 
-                 >
-     <div className="d-flex">
-     <div className="news-headline">  আলঝেইমার সোসাইটি অব বাংলাদেশ সহায়তার জন্য আপনার পাশে থাকবে।</div> 
+                >
+                    <div className="d-flex">
+                        <div className="news-headline">  আলঝেইমার সোসাইটি অব বাংলাদেশ সহায়তার জন্য আপনার পাশে থাকবে।</div>
 
-<div className="call_div"> <BiRightArrowCircle className="arrow_icon"/> Call Us Now <span className="text-bold ms-2"> +8801720498197 / +8801906246621 </span> </div>
-     </div>
-</marquee> 
+                        <div className="call_div"> <BiRightArrowCircle className="arrow_icon" /> Call Us Now <span className="text-bold ms-2"> +8801720498197 / +8801906246621 </span> </div>
+                    </div>
+                </marquee>
 
             </div>
             <section className="container mb-5">
@@ -182,6 +181,37 @@ function Home() {
                         <img className="ishan_image mt-5" src={ishan} />
                     </div>
                 </div>
+            </section>
+            <section className="video_and_blog"> 
+             
+               <div className="container videos">
+               <h1 className="video_gallery">Video Gallery</h1>
+                <div className="row">
+                    <div className="col-md-4 col-sm-12 col-lg-4 mb-4">
+                        <div className="embed-responsive embed-responsive-16by9">
+                           
+                            <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/ELBl85EoxuU" title="ডিমেনশিয়া রোগের আগাম লক্ষণ (Early signs of dementia)" allowfullscreen></iframe>
+                            <h5 className="video_headline">ডিমেনশিয়া জানুন ,আলঝেইমারস্ চিনুন !</h5>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-12 col-lg-4  mb-4">
+                        <div className="embed-responsive embed-responsive-16by9">
+                           
+                            <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/hQoKMQ6amHw" title="Shamima Akter&#39;s carer story" allowfullscreen></iframe>
+                            <h5 className="video_headline">Carer Story</h5>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-12 col-lg-4 mb-4">
+                        <div className="embed-responsive embed-responsive-16by9">
+                            
+                            <iframe className="embed-responsive-item w-full videos_frame"  src="https://www.youtube.com/embed/PTlF7p-5XYE" title="ডিমেনশিয়া এক অজানা পথ&quot; (Dementia is an unknown path)" allowfullscreen></iframe>
+                            <h5 className="video_headline">তথ্যচিত্র (Documentary )</h5>
+                        </div>
+                    </div>
+
+                   
+                </div>
+               </div>
             </section>
         </div>
 

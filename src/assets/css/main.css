@@ -84,7 +84,7 @@
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
 }
@@ -264,6 +264,34 @@
 
 .padding_0 {
   padding: 0px !important;
+}
+/* ---------------- */
+.video_and_blog {
+  background: #eef1f1d8;
+}
+/* ----- */
+.videos {
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.video_gallery {
+  font-size: 30px;
+  color: #dd1616;
+  font-family: bold;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #cae1f7;
+  line-height: 60px;
+}
+.videos_frame {
+  height: 250px;
+}
+
+.video_headline {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
