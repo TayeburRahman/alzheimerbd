@@ -19,7 +19,7 @@ function Home() {
                 </div>
 
                 <div className="row">
-                    <div className=" col-lg-3">
+                    <div className=" col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>ডিমেনশিয়া কি এবং কেন হয় ?</h3>
 
@@ -30,7 +30,7 @@ function Home() {
                             </div>
                         </Link>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>ডিমেনশিয়ার উপসর্গগুলো কি কি?</h3>
 
@@ -41,7 +41,7 @@ function Home() {
                             </div>
                         </Link>
                     </div>
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>ডিমেনশিয়ার কোন চিকিৎসা আছে কি?</h3>
 
@@ -53,7 +53,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>ডিমেনশিয়া আক্রান্ত ব্যক্তির সাথে বসবাস এবং তাদের পরিচর্যা</h3>
 
@@ -65,7 +65,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>ডিমেনশিয়া সেবা সংক্রান্ত কয়েকটি ব্যবহারিক তথ্য</h3>
 
@@ -77,7 +77,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>পরিচর্যায় দৈহিক ও মানসিক চাপ</h3>
 
@@ -89,7 +89,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
                         <Link to="" className="card_question" href="#">
                             <h3>আপনার নিজের যত্ন</h3>
 
@@ -101,7 +101,7 @@ function Home() {
                         </Link>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 padding_0">
 
                         <Link class="card_answer"  >
                             <h3>আপনার প্রশ্নের উত্তরঃ</h3>
@@ -129,9 +129,9 @@ function Home() {
 </marquee> 
 
             </div>
-            <section className="container">
+            <section className="container mb-5">
                 <div className="row">
-                    <div className=" col-lg-7 ">
+                    <div className=" col-lg-7 padding_0">
                         <article className="cards">
                             <img className="card_image" src={covid} />
                             <div className="card__body">
@@ -139,7 +139,7 @@ function Home() {
                             </div>
                         </article>
                     </div>
-                    <div className=" col-lg-5   ">
+                    <div className=" col-lg-5 padding_0">
                         <div>
                             <article className="cards">
                                 <img className="card_image" src={research} />
@@ -157,28 +157,28 @@ function Home() {
                             </article>
                         </div>
                     </div>
-                    <div className=" col-lg-2 ">
+                    <div className=" col-lg-2 padding_0">
                         <article className="cards">
                             <img className="card_image" src={publication} />
                             <div className="card__body">
-                                <h2 className="card__title title_sm"><Link to="#">Publication</Link></h2>
+                                <h2 className="  title_sm"><Link to="#">Publication</Link></h2>
                             </div>
                         </article>
                     </div>
-                    <div className=" col-lg-2 ">
+                    <div className=" col-lg-2 padding_0">
                         <article className="cards">
                             <img className="card_image" src={demotion} />
                             <div className="card__body">
-                                <h2 className="card__title title_sm"><Link to="#">ডিমেনশিয়া আক্রান্তদের যত্ন</Link></h2>
+                                <h2 className="  title_sm"><Link to="#">ডিমেনশিয়া আক্রান্তদের যত্ন</Link></h2>
                             </div>
                         </article>
                     </div>
 
-                    <div className=" col-lg-4  donate_div">
+                    <div className=" col-lg-4 padding_0 donate_div">
                         <h3 className="support">We Need Your Support Today!</h3>
                         <button className="donate">DONATE NOW</button>
                     </div>
-                    <div className=" col-lg-4  donate_div">
+                    <div className=" col-lg-4 padding_0 donate_div">
                         <img className="ishan_image mt-5" src={ishan} />
                     </div>
                 </div>

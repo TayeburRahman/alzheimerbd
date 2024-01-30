@@ -198,6 +198,7 @@
 
 .title_sm {
   font-size: 16px;
+  padding: 5px;
 }
 
 .support {
@@ -261,11 +262,8 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 600px) {
-  .row > * {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+.padding_0 {
+  padding: 0px !important;
 }
 
 @media only screen and (max-width: 600px) {
