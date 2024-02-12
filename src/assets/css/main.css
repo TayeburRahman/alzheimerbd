@@ -294,6 +294,20 @@
   font-weight: 600;
 }
 
+.swiper-button-next:after {
+  content: "next";
+  font-size: 25px !important;
+}
+
+.swiper-button-prev:after {
+  font-size: 25px !important;
+}
+
+.swiper-slide.swiper-slide-active {
+  display: flex !important;
+  justify-content: center !important;
+  background: #dde1e6;
+}
 @media only screen and (max-width: 600px) {
   .card__body {
     font-size: 22px;

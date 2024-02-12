@@ -6,6 +6,23 @@ import covid from "../../assets/images/Unite-against-COVID-19-300x200.jpg";
 import research from "../../assets/images/alzheimerbd-research.jpg";
 import dementia from "../../assets/images/dementia-friends.jpg";
 import ishan from "../../assets/images/ishan-Mitra.png";
+import BlogSlider from "../BlogSlider";
+
+const slider1 =[
+    {
+        img:"https://i.ibb.co/3p86NNn/dmentia.jpg",
+        id:"1"
+    },
+    {
+        img:"https://i.ibb.co/3p86NNn/dmentia.jpg",
+        id:"2"
+    },
+    {
+        img:"https://i.ibb.co/3p86NNn/dmentia.jpg",
+        id:"3"
+    },
+    
+]
 
 
 
@@ -182,36 +199,48 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className="video_and_blog"> 
-             
-               <div className="container videos">
-               <h1 className="video_gallery">Video Gallery</h1>
-                <div className="row">
-                    <div className="col-md-4 col-sm-12 col-lg-4 mb-4">
-                        <div className="embed-responsive embed-responsive-16by9">
-                           
-                            <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/ELBl85EoxuU" title="ডিমেনশিয়া রোগের আগাম লক্ষণ (Early signs of dementia)" allowfullscreen></iframe>
-                            <h5 className="video_headline">ডিমেনশিয়া জানুন ,আলঝেইমারস্ চিনুন !</h5>
+            <section className="video_and_blog">
+                <div className="container videos">
+                    <h1 className="video_gallery">Video Gallery</h1>
+                    <div className="row">
+                        <div className="col-md-4 col-sm-12 col-lg-4 mb-4">
+                            <div className="embed-responsive embed-responsive-16by9"> 
+                                <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/ELBl85EoxuU" title="ডিমেনশিয়া রোগের আগাম লক্ষণ (Early signs of dementia)" allowfullscreen></iframe>
+                                <h5 className="video_headline">ডিমেনশিয়া জানুন ,আলঝেইমারস্ চিনুন !</h5>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-12 col-lg-4  mb-4">
+                            <div className="embed-responsive embed-responsive-16by9"> 
+                                <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/hQoKMQ6amHw" title="Shamima Akter&#39;s carer story" allowfullscreen></iframe>
+                                <h5 className="video_headline">Carer Story</h5>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-12 col-lg-4 mb-4">
+                            <div className="embed-responsive embed-responsive-16by9"> 
+                                <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/PTlF7p-5XYE" title="ডিমেনশিয়া এক অজানা পথ&quot; (Dementia is an unknown path)" allowfullscreen></iframe>
+                                <h5 className="video_headline">তথ্যচিত্র (Documentary )</h5>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-12 col-lg-4  mb-4">
-                        <div className="embed-responsive embed-responsive-16by9">
-                           
-                            <iframe className="embed-responsive-item w-full videos_frame" src="https://www.youtube.com/embed/hQoKMQ6amHw" title="Shamima Akter&#39;s carer story" allowfullscreen></iframe>
-                            <h5 className="video_headline">Carer Story</h5>
-                        </div>
-                    </div>
-                    <div className="col-md-4 col-sm-12 col-lg-4 mb-4">
-                        <div className="embed-responsive embed-responsive-16by9">
-                            
-                            <iframe className="embed-responsive-item w-full videos_frame"  src="https://www.youtube.com/embed/PTlF7p-5XYE" title="ডিমেনশিয়া এক অজানা পথ&quot; (Dementia is an unknown path)" allowfullscreen></iframe>
-                            <h5 className="video_headline">তথ্যচিত্র (Documentary )</h5>
-                        </div>
-                    </div>
-
-                   
                 </div>
-               </div>
+                <div className="container blog">
+                    <h1 className="video_gallery">BLOG</h1>
+                    <div className="row">
+                        <div className="col-md-4 col-sm-12 col-lg-4 mb-4 d-flex justify-center">
+                            <BlogSlider data={slider1}/>
+                        </div>
+                        <div className="col-md-4 col-sm-12 col-lg-4  mb-4 d-flex justify-center">
+                        <BlogSlider data={slider1}/>
+                        </div>
+                        <div className="col-md-4 col-sm-12 col-lg-4 mb-4 d-flex justify-center">
+                           <BlogSlider data={slider1}/>
+                        </div>
+                    </div>
+                </div> 
+               
+            </section>
+            <section>
+                
             </section>
         </div>
 
